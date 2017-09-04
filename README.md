@@ -1,2 +1,2 @@
 # icons-search
-Search for Simple line icons Pro font
+Search for icons from a JSON map
