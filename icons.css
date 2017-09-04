@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'Simple-Line-Icons-Pro';
-	src:url('fonts/Simple-Line-Icons-Pro.eot?bnq6qi');
-	src:url('fonts/Simple-Line-Icons-Pro.eot?bnq6qi#iefix') format('embedded-opentype'),
-		url('fonts/Simple-Line-Icons-Pro.ttf?bnq6qi') format('truetype'),
-		url('fonts/Simple-Line-Icons-Pro.woff?bnq6qi') format('woff'),
-		url('fonts/Simple-Line-Icons-Pro.svg?bnq6qi#Simple-Line-Icons-Pro') format('svg');
+	font-family: 'sli-icons';
+	src:url('fonts/sli-icons.eot?bnq6qi');
+	src:url('fonts/sli-icons.eot?bnq6qi#iefix') format('embedded-opentype'),
+		url('fonts/sli-icons.ttf?bnq6qi') format('truetype'),
+		url('fonts/sli-icons.woff?bnq6qi') format('woff'),
+		url('fonts/sli-icons.svg?bnq6qi#sli-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'Simple-Line-Icons-Pro';
+	font-family: 'sli-icons';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -5003,4 +5003,3 @@
 .icon-windows-open:before {
 	content: "\ee7b";
 }
-
