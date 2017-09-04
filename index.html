@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple line icons pro</title>
+	<link rel="stylesheet" href="icons.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1 class="main-title">Simple line icons pro</h1>
+	<div class="list-actions">
+		<div class="list-actions--action">Icon size: <button data-action="increase-size">+</button><button data-action="decrease-size">-</button></div>
+		<div class="list-actions--action">Hide text: <input data-action="toggle-titles" type="checkbox" checked=checked></div>
+		<div class="list-actions--action">Alerts?: <input data-action="alert-on-click" type="checkbox" checked=checked></div>
+		<div class="list-actions--action search-block">
+			<input data-action="keyup:search-icons" type="text" class="main-search" placeholder="Search icons...">
+			<span data="icon-count" class="count"></span>
+		</div>
+	</div>
+
+  <div id="icons">
+
+		<template id="icon-title-template"><h2 class="icon-set-title"></h2></template>
+    <template id="icon-template">
+      <span class="icon-wrapper">
+        <span class="icon"></span>
+        <span class="icon-title"></span>
+      </span>
+    </template>
+
+  </div>
+
+  <script src="selection.js"></script>
+  <script src="search.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main-title {
+  text-align: center;
+}
+.list-actions {
+  border: 6px solid white;
+}
+.list-actions--action {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 10px;
+  background: rgba(0,0,0,.1);
+}
+.search-block {
+  display: flex;
+  align-items: center;
+}
+.main-search {
+  padding: 10px;
+  font-size: 1.5em;
+  flex: 1;
+}
+.count {
+  font-size: 1.2em;
+  padding: 0 0 0 10px;
+  font-family: monospace;
+}
+
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  border: 4px solid white;
+}
+#icons.hide-titles .icon-title {
+  display: none;
+}
+.icon-set-title {
+  flex: none;
+  display: block;
+  border: 4px solid white;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.icon-wrapper {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0,0,0,.1);
+  border: 4px solid white;
+}
+.icon:before {
+  font-size: 2em;
+}
+.icon-title {
+  display: block;
+  white-space: nowrap;
+  margin-top: 9px;
+  font-size: 10px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.icon-set-9 { background: rgba(0,0,0,.1); }
+.icon-set-8 { background: rgba(0,0,0,.3); }
+.icon-set-7 { background: rgba(0,0,0,.1); }
+.icon-set-6 { background: rgba(0,0,0,.3); }
+.icon-set-5 { background: rgba(0,0,0,.1); }
+.icon-set-4 { background: rgba(0,0,0,.3); }
+.icon-set-3 { background: rgba(0,0,0,.1); }
+.icon-set-2 { background: rgba(0,0,0,.3); }
+.icon-set-1 { background: rgba(0,0,0,.1); }
+.icon-set-0 { background: rgba(0,0,0,.3); }
+
+/*#icons .icon-set-9:first-of-type:before { content: "Icon set 9"; display: block; flex: 10 }*/
